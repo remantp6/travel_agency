@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Top from './components/Top'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
@@ -14,7 +14,7 @@ import Contact from './pages/Contact'
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Top/>
       <NavBar/>
         <Routes>
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/news/newsDetails" element={<NewsDetails/>} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
