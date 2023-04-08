@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container'
 import { NavLink } from 'react-router-dom'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import ScrollTop from './ScrollTop'
 
 const Footer = () => {
   return (
@@ -84,7 +83,7 @@ const Footer = () => {
               <Col className="ps-0 ms-0">
                 <div className="site_footer__bottom_inner d-flex">
                   <div className="site_footer__bottom_left_arrow px-lg-5">
-                  <ScrollTop/>
+                  <a href="#root"><i className="bi bi-arrow-up"></i></a>
                   </div>  
                     <div className="site_footer__bottom_right px-lg-5">
                       <div className="footer_widget__social_icons ps-md-5 ps-lg-2">
