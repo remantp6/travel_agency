@@ -1,0 +1,960 @@
+@import "breakpoints";
+
+@include xs {
+  //start of top header
+  .top_header {
+    display: none;
+  }
+  //end of top header
+
+  //start of nav_bar
+  .navbar-nav {
+    .searchBar {
+      display: none;
+    }
+    .user {
+      display: none;
+    }
+  }
+  //end of nav_bar
+
+  //start of banner
+  .home_carousel {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: none;
+    }
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      padding-bottom: 20px;
+      h1 {
+        padding-bottom: 15px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 900;
+      }
+    }
+  }
+  .search_box {
+    width: 95%;
+    position: relative;
+    transform: translateY(-15%);
+    .height {
+      padding: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.517);
+    }
+    .pad {
+      padding: 20px 0;
+    }
+    .tour-search-one_button {
+      border-radius: 10px 10px 10px 10px;
+      h6 {
+        line-height: 85px;
+      }
+    }
+  }
+  //end of banner
+
+  //start  of destination
+  .destination_one {
+    // margin-top: 60px;
+    .section_title {
+      padding-bottom: 30px;
+    }
+    .con {
+      margin-bottom: 15px;
+    }
+  }
+  //end of destination
+
+  //start of about
+  .about_one {
+    .about_one_call_icon {
+      display: none;
+    }
+    .about_one_call_number {
+      display: none;
+    }
+
+    .about_one_imgBox {
+      .about_one_discount {
+        display: none;
+      }
+    }
+    .about_one_right {
+      padding-top: 60px;
+      position: relative;
+      .about_one_content {
+        padding: 0 10px;
+        img {
+          position: absolute;
+          right: 100px;
+          top: 30px;
+        }
+      }
+    }
+  }
+  //end of about
+
+  //start of carousel /feature section
+  .feature_section {
+    margin-top: 60px;
+  }
+  //end of carousel /feature section
+
+  //start of news
+  .news_one {
+    margin-top: 60px;
+    .container {
+      .news_one_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .news_one_bottom {
+        .news_box {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  //end of news
+
+  //start of discover component
+  .destination_details_discover {
+    .destination_details_right {
+      margin: 30px 0;
+      position: relative;
+      img {
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .destination_details_discount {
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+      }
+    }
+    .overview_section {
+      h2 {
+        padding: 10px 0 10px 0;
+      }
+    }
+  }
+  //start of discover component
+
+  //start of styling TDetails component
+  .tour_details {
+    margin-top: 50px;
+  }
+  //end of styling TDetails component
+
+  //Start of styling PageAbout section
+  .page_about {
+    .page_about_right {
+      margin-top: 45px;
+      .page_about_right_title {
+        padding-bottom: 15px;
+      }
+      .page_about_progress_bar {
+        padding: 10px 0;
+      }
+    }
+  }
+  //end of styling PageAbout section
+  //start of book page component
+  .book_page {
+    margin: 60px 0;
+    .book_now_inner {
+      display: flex;
+      flex-direction: column;
+      .book_now_inner_left {
+        text-align: center;
+        padding-bottom: 20px;
+        span {
+          font-size: 24px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+      .btn {
+        width: 30%;
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+  }
+  //end of book page component
+
+  //start of styling NewsComment section
+  .news_comment {
+    .comment_content_wrapper {
+      display: flex;
+      flex-direction: column;
+      .comment_content_left {
+        padding: 10px 10px;
+      }
+      .comment_content_right {
+        padding: 12px 15px;
+        .right_top {
+          a {
+            display: none;
+          }
+        }
+        p {
+          word-break: keep-all;
+        }
+      }
+    }
+    .comment_section {
+      .btn {
+        width: 35%;
+        padding: 12px 0;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+  //end of styling NewsComment section
+
+  //start of styling contact-info
+  .contact_page {
+    padding: 50px 0 0 0;
+    .contact-sm {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 18px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+    .contact_page_bottom {
+      .col-12 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .btn {
+    width: 40%;
+    padding: 14px 0;
+    font-size: 16px;
+  }
+  //start of styling contact-info
+
+  //start of site footer
+  .site_footer {
+    margin-top: 60px;
+    .site_footer_top_inner {
+      .footer-widget__column_top {
+        padding: 10px 0px;
+      }
+      .footer-widget__column_bottom {
+        .nav {
+          display: block;
+        }
+      }
+    }
+    .site_footer__bottom_left_arrow {
+      padding: 0 30px 0 30px;
+    }
+    .footer_widget__social_icons {
+      display: none;
+    }
+    .site-footer__bottom_right {
+      margin: 0 auto;
+    }
+  }
+  //end of site footer
+}
+
+@include sm {
+  //start of top header
+  .top_header {
+    display: none;
+  }
+  //end of top header
+
+  //start of nav_bar
+  .navbar-nav {
+    .searchBar {
+      display: none;
+    }
+    .user {
+      display: none;
+    }
+  }
+  //end of nav_bar
+
+  //start of banner
+  .home_carousel {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: none;
+    }
+    img {
+      height: 100vh;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      padding-bottom: 20px;
+      h1 {
+        padding-bottom: 15px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 900;
+      }
+    }
+  }
+  .search_box {
+    width: 92%;
+    position: relative;
+    transform: translateY(-15%);
+    .height {
+      padding: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.517);
+    }
+    .pad {
+      padding: 20px 0;
+    }
+    .tour-search-one_button {
+      border-radius: 10px 10px 10px 10px;
+      h6 {
+        line-height: 85px;
+      }
+    }
+  }
+  //end of banner
+
+  //start  of destination
+  .destination_one {
+    // margin-top: 60px;
+    .section_title {
+      padding-bottom: 50px;
+    }
+    .con {
+      margin-bottom: 15px;
+    }
+  }
+  //end of destination
+
+  //start of about
+  .about_one {
+    .about_one_call_icon {
+      display: none;
+    }
+    .about_one_call_number {
+      display: none;
+    }
+
+    .about_one_imgBox {
+      .about_one_discount {
+        display: none;
+      }
+    }
+    .about_one_right {
+      padding-top: 60px;
+      position: relative;
+      .about_one_content {
+        padding: 0 10px;
+        img {
+          position: absolute;
+          right: 40px;
+          top: 20px;
+        }
+      }
+    }
+  }
+  //end of about
+  //start of carousel /feature section
+  .feature_section {
+    margin-top: 60px;
+    .feature_section_top {
+      padding-bottom: 40px;
+    }
+  }
+  //end of carousel /feature section
+
+  //start of news
+  .news_one {
+    margin-top: 60px;
+    .container {
+      .news_one_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .news_one_top_left {
+          padding-bottom: 30px;
+        }
+      }
+      .news_one_bottom {
+        .news_box {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  //end of news
+
+  //start of discover component
+  .destination_details_discover {
+    .destination_details_right {
+      img {
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      margin: 30px 0;
+      position: relative;
+      .destination_details_discount {
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+      }
+    }
+    .overview_section {
+      h2 {
+        padding: 10px 0 10px 0;
+      }
+    }
+  }
+  //start of discover component
+
+  //start of styling TDetails component
+  .tour_details {
+    margin-top: 50px;
+  }
+  //end of styling TDetails component
+
+  //Start of styling PageAbout section
+  .page_about {
+    .page_about_right {
+      margin-top: 45px;
+      .page_about_right_title {
+        padding-bottom: 15px;
+      }
+      .page_about_progress_bar {
+        padding: 10px 0;
+      }
+    }
+  }
+  //end of styling PageAbout section
+  //start of book page component
+  .book_page {
+    margin: 60px 0;
+    .book_now_inner {
+      display: flex;
+      flex-direction: column;
+      .book_now_inner_left {
+        text-align: center;
+        padding-bottom: 20px;
+        span {
+          font-size: 28px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+      .btn {
+        width: 30%;
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+  }
+  //end of book page component
+
+  //start of styling NewsComment section
+  .news_comment {
+    .comment_content_wrapper {
+      display: flex;
+      flex-direction: column;
+      .comment_content_left {
+        padding: 10px 10px;
+      }
+      .comment_content_right {
+        padding: 12px 15px;
+        .right_top {
+          a {
+            display: none;
+          }
+        }
+        p {
+          word-break: keep-all;
+        }
+      }
+    }
+    .comment_section {
+      .btn {
+        width: 35%;
+        padding: 12px 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+  //end of styling NewsComment section
+
+  //start of styling contact-info
+  .contact_page {
+    padding: 50px 0 0 0;
+    .contact-sm {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 28px;
+      }
+    }
+    .contact_page_bottom {
+      .col-12 {
+        margin-bottom: 26px;
+      }
+    }
+  }
+  //start of styling contact-info
+
+  //start of site footer
+  .site_footer {
+    margin-top: 60px;
+    .site_footer_top_inner {
+      .footer-widget__column_top {
+        padding: 10px 0px;
+      }
+      .footer-widget__column_bottom {
+        .nav {
+          display: block;
+        }
+      }
+    }
+    .site_footer__bottom_left_arrow {
+      padding: 0 50px 0 50px;
+    }
+    .footer_widget__social_icons {
+      display: none;
+    }
+    .site-footer__bottom_right {
+      margin: 0 auto 0 auto;
+    }
+  }
+  //end of site footer
+}
+
+@include md {
+  .top_header {
+    display: none;
+  }
+
+  //start of nav_bar
+  .navbar-nav {
+    .searchBar {
+      display: none;
+    }
+    .user {
+      display: none;
+    }
+  }
+  //end of nav_bar
+
+  //start of banner
+  .home_carousel {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: none;
+    }
+    img {
+      height: 110vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      padding-bottom: 20px;
+      h1 {
+        padding-bottom: 15px;
+        font-size: 45px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 25px;
+        font-weight: 900;
+      }
+    }
+  }
+  .search_box {
+    width: 92%;
+    position: relative;
+    transform: translateY(-15%);
+    .height {
+      padding: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    }
+    .pad {
+      padding: 20px 0;
+    }
+    .tour-search-one_button {
+      border-radius: 0 0 10px 10px;
+      h6 {
+        line-height: 85px;
+      }
+    }
+  }
+  //end of banner
+  //start  of destination
+  .destination_one {
+    //margin-top: 60px;
+    .section_title {
+      padding-bottom: 30px;
+    }
+    .con {
+      margin-bottom: 15px;
+    }
+  }
+  //end of destination
+
+  //start of about
+  .about_one {
+    position: relative;
+    .about_one_call {
+      position: absolute;
+      top: 30%;
+      left: 20px;
+    }
+    .about_one_left {
+      position: relative;
+      .about_one_discount {
+        position: absolute;
+        right: 100px;
+        top: 100px;
+      }
+    }
+    .about_one_right {
+      padding-top: 60px;
+      position: relative;
+      .about_one_content {
+        .about_title {
+          padding: 20px 0;
+        }
+        padding: 0 10px;
+        .about_para_content p {
+          font-size: 20px;
+          line-height: 42px;
+          word-break: keep-all;
+        }
+        img {
+          position: absolute;
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  //start of feature section
+  .feature_section {
+    margin-top: 60px;
+    .feature_section_top {
+      padding-bottom: 40px;
+    }
+  }
+  
+  //end of feature section
+
+  //start of news
+  .news_one {
+    margin-top: 60px;
+    .container {
+      .news_one_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .news_one_top_left {
+          padding-bottom: 30px;
+        }
+      }
+      .news_one_bottom {
+        .news_box {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  //end of news
+
+  //start of discover component
+  .destination_details_discover {
+    .destination_details_right {
+      margin: 30px 0;
+      position: relative;
+      img {
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .destination_details_discount {
+        position: absolute;
+        bottom: 50px;
+        left: 62px;
+      }
+    }
+    .overview_section {
+      h2 {
+        padding: 15px 0 15px 0;
+      }
+    }
+  }
+  //start of discover component
+
+  //start of styling TDetails component
+  .tour_details {
+    margin-top: 60px;
+  }
+  //end of styling TDetails component
+
+  //Start of styling PageAbout section
+  .page_about {
+    .page_about_left {
+      img {
+        width: 100%;
+      }
+    }
+    .page_about_right {
+      margin-top: 45px;
+      .page_about_right_title {
+        padding-bottom: 15px;
+      }
+      .page_about_progress_bar {
+        padding: 10px 0;
+      }
+    }
+  }
+  //end of styling PageAbout section
+  //start of book page component
+  .book_page {
+    margin: 60px 0;
+    .book_now_inner {
+      display: flex;
+      flex-direction: column;
+      .book_now_inner_left {
+        text-align: center;
+        padding-bottom: 20px;
+        span {
+          font-size: 28px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+      .btn {
+        width: 30%;
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+  }
+  //end of book page component
+
+  //start of styling NewsComment section
+  .news_comment {
+    .comment_content_wrapper {
+      display: flex;
+      flex-direction: column;
+      .comment_content_left {
+        padding: 10px 10px;
+      }
+      .comment_content_right {
+        padding: 12px 15px;
+        p {
+          word-break: keep-all;
+        }
+      }
+    }
+  }
+
+  .contact_page {
+    padding: 50px 0 0 0;
+    .contact_page_bottom {
+      .col-12 {
+        margin-bottom: 26px;
+      }
+    }
+  }
+  //start of site footer
+  .site_footer {
+    margin-top: 60px;
+    .site_footer_top_inner {
+      .footer-widget__column_top {
+        padding: 10px 0px;
+      }
+      .footer-widget__column_bottom {
+        .nav {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+    .site_footer__bottom_left_arrow {
+      padding: 0 50px 0 50px;
+    }
+  }
+  //end of site footer
+}
+
+@include lg {
+  .home_carousel {
+    img {
+      height: 160vh;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      padding-bottom: 40px;
+      h1 {
+        padding-bottom: 15px;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 30px;
+        font-weight: 900;
+      }
+    }
+  }
+
+  //start  of destination
+  .destination_one {
+    margin-top: 30px;
+    .section_title {
+      padding-bottom: 50px;
+    }
+    .con {
+      margin-bottom: 15px;
+    }
+  }
+  //end of destination
+
+  //start of about
+  .about_one {
+    position: relative;
+    .about_one_call {
+      position: absolute;
+      top: 30%;
+      left: 120px;
+    }
+    .about_one_left {
+      padding: 0 80px;
+      position: relative;
+      .about_one_discount {
+        position: absolute;
+        right: 160px;
+        top: 110px;
+      }
+    }
+    .about_one_right {
+      padding-top: 60px 0;
+      position: relative;
+      .about_one_content {
+        .about_title {
+          padding: 20px 0;
+          h1 {
+            font-size: 54px;
+          }
+        }
+        //padding: 0 130px;
+        padding: 0 80px;
+        .about_para_content p {
+          font-size: 20px;
+          line-height: 42px;
+          word-break: keep-all;
+        }
+        img {
+          position: absolute;
+          right: 150px;
+          top: 20px;
+        }
+      }
+    }
+  }
+
+  .destination_details_discover {
+    .destination_details_right {
+      margin: 40px 0;
+      position: relative;
+      .destination_details_discount {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+      }
+    }
+    .overview_section {
+      h2 {
+        padding: 20px 0 20px 0;
+      }
+    }
+  }
+
+  .page_about {
+    .page_about_right {
+      h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+  //start of book page component
+  .book_page {
+    .book_now_inner {
+      .book_now_inner_left {
+        padding-bottom: 20px;
+        span {
+          font-size: 28px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  //end of book page component
+}
+
+@include xl {
+  .destination_one {
+    margin-top: 60px;
+    .section_title {
+      padding-bottom: 50px;
+    }
+    .con {
+      margin-bottom: 15px;
+    }
+  }
+
+  .about_one {
+    padding: 60px 0;
+    .about_one_content {
+      padding-top: 50px;
+    }
+  }
+
+  //start of discover component
+  .destination_details_discover {
+    .destination_details_discover_left {
+      padding-right: 80px;
+      p {
+      }
+    }
+  }
+  //start of discover component
+}
