@@ -15,6 +15,10 @@ const Home = () => {
       <Carousal title="Featured tours" heading="Most Popular Tours"/>
       <Carousal title="Featured tours" heading="Most Popular Tours"/>
       <Carousal title="Featured tours" heading="Most Popular Tours"/>
+      <Carousal title="Featured tours" heading="Most Popular Tours"/>
+      <Carousal title="Featured tours" heading="Most Popular Tours"/>
+      <Carousal title="Featured tours" heading="Most Popular Tours"/>
+      <Carousal title="Featured tours" heading="Most Popular Tours"/>
       <News title="From the blog post" heading="News & Articles"/>
       <Footer/>
     </>
