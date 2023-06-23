@@ -6,13 +6,6 @@ import Footer from '../components/Footer'
 import News from '../components/News'
 import Carousal from '../components/Carousal'
 
-
-
-// Nitesh Paudel
-// Nitesh Paudel
-
-// Nitesh Paudel
-// Nitesh Paudel
 const Home = () => {
   return (
     <>
