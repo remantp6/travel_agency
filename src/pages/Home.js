@@ -13,6 +13,9 @@ import Carousal from '../components/Carousal'
 
 // Nitesh Paudel
 // Nitesh Paudel
+
+// Nitesh Paudel
+// Nitesh Paudel
 const Home = () => {
   return (
     <>
@@ -20,8 +23,11 @@ const Home = () => {
       <DestinationList title="Destination lists" heading="Go Exotic Places"/>
       <About/>
       <Carousal title="Featured tours" heading="Most Popular Tours"/>
-      <Carousal title="Featured tours" heading="Most Popular Tours"/>
-      <Carousal title="Featured tours" heading="Most Popular Tours"/>
+      <News title="From the blog post" heading="News & Articles"/>
+      <News title="From the blog post" heading="News & Articles"/>
+      <News title="From the blog post" heading="News & Articles"/>
+      <News title="From the blog post" heading="News & Articles"/>
+      <News title="From the blog post" heading="News & Articles"/>
       <News title="From the blog post" heading="News & Articles"/>
       <Footer/>
     </>
